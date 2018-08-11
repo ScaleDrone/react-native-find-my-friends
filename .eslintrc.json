@@ -1,0 +1,43 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "semi": "error",
+    "comma-dangle": "off",
+    "no-console": "off",
+    "keyword-spacing": "warn",
+    "max-len": "warn",
+    "key-spacing": "error",
+    "prefer-const": "error",
+    "space-before-function-paren": ["error", "never"],
+    "space-before-blocks": ["warn", "always"],
+    "arrow-spacing": "warn",
+    "eqeqeq": ["error", "smart"],
+    "no-constant-condition": "off",
+    "curly": "error",
+    "no-var": "warn",
+    "object-shorthand": "warn"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "react-native/react-native": true
+  },
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "plugins": [
+    "react",
+    "react-native"
+  ]
+}
