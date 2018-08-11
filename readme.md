@@ -1,6 +1,6 @@
 # React Native Live Map (Find My Friends clone)
 
-![React Native Find My Friends Screenshot](iphone-screenshot.png)
+![React Native Find My Friends Screenshot](iphone-screenshot.png =440x)
 
 ## Providing the Scaledrone channel properties
 
